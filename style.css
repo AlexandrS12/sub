@@ -1,0 +1,29 @@
+.sub {
+    position: relative;
+    background-color: #f0f0f0;
+    text-align: center;
+    border: 1px solid #6b6a6a;
+    border-radius: 9px;
+    padding: 5px;
+    margin-top: 8em;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .sub:hover {
+    transform: scale(1.1)
+  }
+  
+  .sub button {
+    margin-top: 15px;
+  }
+  .price {
+    margin: 0;
+    font-size: 50px;
+    font-weight: bold;
+  }
+  
+  .per-month {
+    font-size: 20px;
+    margin: 0;
+  }
+  
